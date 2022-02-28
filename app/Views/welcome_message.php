@@ -221,7 +221,7 @@
 
 		<h1>ECOM WEBSITE <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
-		<h2>The small framework with powerful features</h2>
+		<h2>Made by a ragtag bunch of developers</h2>
 
 	</div>
 
