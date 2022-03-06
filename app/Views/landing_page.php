@@ -1,56 +1,17 @@
 <main>
 
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="height:200px">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://static2.bigstockphoto.com/0/1/4/large1500/410744977.jpg">
-
-                <div class="container">
-                    <div class="carousel-caption text-start">
-                        <h1>Example headline.</h1>
-                        <p>Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                    </div>
-                </div>
+                <img class="d-block w-100" src="..." alt="First slide">
             </div>
             <div class="carousel-item">
-                <img
-                    src="https://pub-static.fotor.com/assets/projects/pages/bbd90ce0-debd-11e9-a83e-2d425ec98400_7b73e620-11b9-43bb-b068-5e3b43ccb738_thumb.jpg">
-
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                    </div>
-                </div>
+                <img class="d-block w-100" src="..." alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img
-                    src="https://pub-static.fotor.com/assets/projects/pages/bbd90ce0-debd-11e9-a83e-2d425ec98400_7b73e620-11b9-43bb-b068-5e3b43ccb738_thumb.jpg" />
-                <div class="container">
-                    <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                    </div>
-                </div>
+                <img class="d-block w-100" src="..." alt="Third slide">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
 
@@ -59,43 +20,25 @@
 
         <div class="row">
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
+                <img class="heading-image" src="<?php echo base_url('images/suit.jpeg'); ?>">
 
-                <h2>Heading</h2>
+                <h2>Men's Collection</h2>
                 <p>Some representative placeholder content for the three columns of text below the carousel. This is the
                     first column.</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
+                <img class="heading-image"
+                    src="<?php echo base_url('images/11_73US $ 40_ OFF_QWEEK Korean Style Woman Tshirts Fashion  2020 Purple Print T Shirt Women Long Sleeve Oversize Loose Casual Women Clothing_T-Shirts_   - AliExpress.jpeg'); ?>">
 
-                <h2>Heading</h2>
+                <h2>Casual Collection</h2>
                 <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
                     column.</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
-
-                <h2>Heading</h2>
+                <img class="heading-image" src="<?php echo base_url('images/a17e9b47433647f7768d5d6500f68374.jpg'); ?>">
+                <h2>Business Attire</h2>
                 <p>And lastly this, the third column of representative placeholder content.</p>
                 <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -110,18 +53,11 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
                         mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
+                <p class="lead">We are glad to express our newly-fashioned design with a vibrant attention to detail
+                </p>
             </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
-
+            <div class="col-md-5 ">
+                <img class="feature-image" src="<?php echo base_url('images/b2bd213ac99254668a11ab60b88d20cc.jpg'); ?>">
             </div>
         </div>
 
@@ -131,17 +67,12 @@
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
                         yourself.</span></h2>
-                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
-                    this layout would work with some actual real-world content in place.</p>
+                <p class="lead">A premium edit of the environmentally responsible fashion, lifestyle, homeware and
+                    beauty products empowering us to select the best option for ourselves and the planet..</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
+                <img class="feature-image" src="<?php echo base_url('images/94d14b1cc727f20506914d252c941345.jpg'); ?>">
+
 
             </div>
         </div>
@@ -151,18 +82,12 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-                    intended to be actually read, simply here to give you a better view of what this would look like
-                    with some actual content. Your content.</p>
+                <p class="lead">Designed for teens and young adults, the store’s beach and lifestyle offerings are what
+                    make it stand apart from the competition..</p>
             </div>
             <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                        dy=".3em">500x500</text>
-                </svg>
+                <img class="feature-image" src="<?php echo base_url('images/a901b202fc022cf0f4732952ccbbbb69.jpg'); ?>">
+
 
             </div>
         </div>
